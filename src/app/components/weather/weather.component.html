@@ -1,0 +1,13 @@
+<div class="weather">
+    <div class="location">
+      <h3>Current Location: {{ location }}</h3>
+    </div>
+    <div *ngIf="weather" class="weather-data">
+      <p>Weather: {{ weather.weather[0].description }}</p>
+      <p>Temperature: {{ weather.main.temp }}°C</p>
+      <!-- Add more weather information as needed -->
+    </div>
+    <button (click)="updateLocation('Atlanta, GA')">Update Location</button>
+    <button (click)="getUserLocation()">Get My Location</button> <!-- Add this button -->
+  </div>
+  

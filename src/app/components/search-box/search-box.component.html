@@ -1,0 +1,7 @@
+<div class="search-box">
+  <input type="text" placeholder="Search...">
+  <button>Search</button>
+  <select>
+    <option *ngFor="let engine of searchEngines" [value]="engine.url">{{ engine.name }}</option>
+  </select>
+</div>

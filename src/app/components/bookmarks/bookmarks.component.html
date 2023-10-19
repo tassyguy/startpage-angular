@@ -1,0 +1,15 @@
+<!-- bookmarks.component.html -->
+<div *ngFor="let bookmark of bookmarks">
+  <div class="bookmark">
+    <div class="bookmark-icon">
+      <img [src]="bookmark.icon" alt="Bookmark Icon" width="48" height="48" />
+    </div>
+    <div class="bookmark-details">
+      <div class="bookmark-site-name">{{ bookmark.siteName }}</div>
+      <div class="bookmark-description">{{ bookmark.description }}</div>
+    </div>
+    <div class="bookmark-link">
+      <a [href]="bookmark.url" target="_blank" rel="noopener noreferrer">Visit Site</a>
+    </div>
+  </div>
+</div>

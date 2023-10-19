@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Google",
+      "url": "https://www.google.com/search?q="
+    },
+    {
+      "name": "Bing",
+      "url": "https://www.bing.com/search?q="
+    },
+    {
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com/?q="
+    }
+  ]
+  
